@@ -12,7 +12,7 @@ Presenters will be very punctual; there needs to be no gap between sessions.
 
 Note that depending on how you choose to complete this problem, your solution may give a different ordering or combination of talks into tracks. This is acceptable; you don’t need to exactly duplicate the sample output given here.
 
-Test input:
+ Test input:
 Writing Fast Tests Against Enterprise Rails 60min
 
 Overdoing it in Python 45min
