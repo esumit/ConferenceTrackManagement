@@ -53,6 +53,7 @@ User Interface CSS in Rails Apps 30min
 
 
 Test output: 
+
 Track 1:
 
 09:00AM Writing Fast Tests Against Enterprise Rails 60min
@@ -133,14 +134,30 @@ TBD  Add rules to re-evaluate the Schedule of Talks into Tracks e.g. If on evalu
 
 The above solution designed based on the given talks input set and various other parameters (e.g. missing information). Initially it design the appropriate conference schedule based on the given talks input, and continuously add the rules based on the received further inputs. It checks the received input patterns and optimizes the solution.
 
-This solution required improvement (not limited to) e.g. 
-•	Adding the proper log information, 
+This solution required improvement (not limited to) 
+
+e.g. 
+•	Adding the proper log information.
+
+
 •	Adding the appropriate exceptions, error handling, 
-•	Reorganize all code into appropriate code folders, 
-•	Create a pom.xml file so that it could be compile and run via maven, 
-•	If missing information available then add those constraints as well, 
+
+
+•	Reorganize all code into appropriate code folders.
+
+
+•	Create a pom.xml file so that it could be compile and run via maven. 
+
+
+•	If missing information available then add those constraints as well.
+
+
 •	Currently it depicts one solution where it has exercised only one test-input it required to test various other talks input values.
+
+
 •	Various cosmetic things e.g. add/remove comments, add/remove variables/methods
+
+
 
 # Missing information: 
 
