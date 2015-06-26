@@ -108,7 +108,7 @@ Track 2:
 
 # Conference Track Management solutions 
 
-There could be various ways to design the solution of this problem, one of the approach as used in bin packing problem (e.g. while travelling via international/national flights, so that we should pack items based on the baggage allowance) e.g. It’s like you have four bins (e.g. A,B,C,D) and each bin can accommodate 40 KG of total weight with varied volumes,we have N items with varied volume size and weights, which totals as 160 KG or less, supposed to put into the said bins. Those N items weights  are like 1 KG, 5KG, 10KG, 4KG or something else with varied volumes. We need to devise a strategy so that optimal steps could be performed to fill the bins.
+There could be various ways to design the solution of this problem, one of the approach as used in bin packing problem (e.g. we pack items based on the baggage allowance while travelling via international/national flights. example : It’s like you are allowed to have four bags A,B,C,D with a max capacity of each bag is 40 KG. You have to pack N Items which totals as 160 KG or less.Those N items weights are like 1 KG, 5KG, 10KG, 4KG or something else with varied volumes. You need to devise a strategy so that optimal steps could be performed to fill the bags).
 
 This following solution uses a heuristic approach to provide one approximate solution:
 
