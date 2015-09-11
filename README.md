@@ -119,16 +119,16 @@ Total no. of minutes of talks needed to be schedule on these tracks.
 It calculates that how many morning and afternoon session required.
 Based on the above it calculates the no. of tracks.
 
-Step-2: Sort All The Talks in Decending Order 
+Step-2: Sort All The Talks in Decending Order- 
 It sorts all the talks in descending ordered based on the given talks timings. 
 
-Step-3: Schedule In A Track
+Step-3: Schedule In A Track-
 It picks talk one by one and schedule in a track and put into the Morning session or afternoon session without caring the left empty minutes in morning or afternoon session.
 
-Step-4: Pics All The Talks Which Are Now With The Assoicated Track No
+Step-4: Pics All The Talks Which Are Now With The Assoicated Track No-
 It picks all the talks which are now with the associated track no. , its scheduled time and other relevant information. It processes that information and output as a solution. 
 
-Step-5: Add Rules To Re-evaluate The Schedule Of Talks Into Tracks
+Step-5: Add Rules To Re-evaluate The Schedule Of Talks Into Tracks-
 TBD  Add rules to re-evaluate the Schedule of Talks into Tracks e.g. If on evaluation its found that on Track-1 have 30 free minutes and on Track-2 have 45 free minutes, and one talk of 60 minutes need to schedule. It can shuffle 30 mins talks (if possible) from Track-1 to Track-2 , and accommodate this 60 mins talk to track-1,only varieties of input will provide right sense and this solution will improve.
 
 
