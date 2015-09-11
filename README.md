@@ -106,29 +106,29 @@ Track 2:
 05:00PM Networking Event
 
 
-# Conference Track Management solutions 
+# Conference Track Management Solutions 
 
-There could be various ways to design the solution of this problem, one of the approach as used in bin packing problem (e.g. we pack items based on the baggage allowance while travelling via international/national flights. example : It’s like you are allowed to have four bags A,B,C,D with a max capacity of each bag is 40 KG. You have to pack N Items which totals as 160 KG or less.Those N items weights are like 1 KG, 5KG, 10KG, 4KG or something else with varied volumes. You need to devise a strategy so that optimal steps could be performed to fill the bags).
+There could be various ways to design the solution of this problem. One of the possible approach as used in bin packing problem.In the bin packing problem, "objects of different volumes must be packed into a finite number of bins or containers each of volume V in a way that minimizes the number of bins used". Lets have a real example of this: Suppose you have to pack items based on the baggage allowance permitted by the international/national airlines. It’s like you are allowed to have four bags A,B,C,D with a max capacity of each bag is 40 KG. You have N items to pack, those N items are with different size and shapes. Lets say you have one item with weight 1 KG and another Item with a weight of 5 KG and so on. You need to devise a strategy so that optimal steps could be performed to fill the bags under the permitted limits or reduce the number of bags.
 
 This following solution uses a heuristic approach to provide one approximate solution:
 
-Step-1:
+Step-1: Calculate No. Of Tracks Needed
 It extracts the following input from the given input information:
 It calculates the total no. of minutes available for talk on each track (180 minutes for morning session and 240 minutes for afternoon session).
 Total no. of minutes of talks needed to be schedule on these tracks. 
 It calculates that how many morning and afternoon session required.
 Based on the above it calculates the no. of tracks.
 
-Step-2:
+Step-2: Sort All The Talks in Decending Order 
 It sorts all the talks in descending ordered based on the given talks timings. 
 
-Step-3:
+Step-3: Schedule In A Track
 It picks talk one by one and schedule in a track and put into the Morning session or afternoon session without caring the left empty minutes in morning or afternoon session.
 
-Step-4:
+Step-4: Pics All The Talks Which Are Now With The Assoicated Track No
 It picks all the talks which are now with the associated track no. , its scheduled time and other relevant information. It processes that information and output as a solution. 
 
-Step-5:
+Step-5: Add Rules To Re-evaluate The Schedule Of Talks Into Tracks
 TBD  Add rules to re-evaluate the Schedule of Talks into Tracks e.g. If on evaluation its found that on Track-1 have 30 free minutes and on Track-2 have 45 free minutes, and one talk of 60 minutes need to schedule. It can shuffle 30 mins talks (if possible) from Track-1 to Track-2 , and accommodate this 60 mins talk to track-1,only varieties of input will provide right sense and this solution will improve.
 
 
