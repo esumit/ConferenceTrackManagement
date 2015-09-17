@@ -16,7 +16,7 @@ public class Main {
        // Create a new Conference Object.
         Conference conference = new Conference();
 
-        // Process the received inout of Talks's Title and their time.
+        // Process the received input of Talks's Title and their time.
         conference.ProcessTalksInput(TrackConfiguration.TALKS_INPUT_FILE);
 
         // Get the no. of Tracks required to schedule all of these talks.
