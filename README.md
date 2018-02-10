@@ -1,18 +1,31 @@
-# ConferenceTrackManagement
-You are planning a big programming conference and have received many proposals which have passed the initial screen process but you're having trouble fitting them into the time constraints of the day -- there are so many possibilities! So you write a program to do it for you.
+## ConferenceTrackManagement
+You have recieved multiple talks request and that to be organised in a conference. Here are eight rules to oragnise talks in this conference :
 
-The conference has multiple tracks each of which has a morning and afternoon session.
-Each session contains multiple talks.
-Morning sessions begin at 9am and must finish by 12 noon, for lunch.
-Afternoon sessions begin at 1pm and must finish in time for the networking event.
-The networking event can start no earlier than 4:00 and no later than 5:00.
-No talk title has numbers in it.
-All talk lengths are either in minutes (not hours) or lightning (5 minutes).
-Presenters will be very punctual; there needs to be no gap between sessions.
 
-Note that depending on how you choose to complete this problem, your solution may give a different ordering or combination of talks into tracks. This is acceptable; you don’t need to exactly duplicate the sample output given here.
+#### 1. The conference has multiple tracks each of which has a morning and afternoon session.
 
- Test input:
+#### 2. Each session contains multiple talks.
+
+#### 3. Morning sessions begin at 9am and must finish by 12 noon, for lunch.
+
+#### 4. Afternoon sessions begin at 1pm and must finish in time for the networking event.
+
+#### 5. The networking event can start no earlier than 4:00 and no later than 5:00.
+
+#### 6. No talk title has numbers in it.
+
+#### 7. All talk lengths are either in minutes (not hours) or lightning (5 minutes).
+
+#### 8. Presenters will be very punctual; there needs to be no gap between sessions.
+
+
+
+## This Java program receives below Test Input and apply the above eight rules, and produce an output to schedule talks in that conference
+
+### Test input:
+
+
+
 Writing Fast Tests Against Enterprise Rails 60min
 
 Overdoing it in Python 45min
@@ -52,9 +65,14 @@ A World Without HackerNews 30min
 User Interface CSS in Rails Apps 30min
 
 
-Test output: 
 
-Track 1:
+### Test output:
+
+
+
+
+
+#### Track 1:
 
 09:00AM Writing Fast Tests Against Enterprise Rails 60min
 
@@ -81,7 +99,7 @@ Track 1:
 05:00PM Networking Event
 
 
-Track 2:
+#### Track 2:
 
 09:00AM Communicating Over Distance 60min
 
@@ -106,7 +124,9 @@ Track 2:
 05:00PM Networking Event
 
 
-# Conference Track Management Solutions 
+
+
+### Conference Track Management Solutions 
 
 There could be various ways to design the solution of this problem. One of the possible approach as used in bin packing problem.In the bin packing problem, "objects of different volumes must be packed into a finite number of bins or containers each of volume V in a way that minimizes the number of bins used". Lets have a real example of this: Suppose you have to pack items based on the baggage allowance permitted by the international/national airlines. It’s like you are allowed to have four bags A,B,C,D with a max capacity of each bag is 40 KG. You have N items to pack, those N items are with different size and shapes. Lets say you have one item with weight 1 KG and another Item with a weight of 5 KG and so on. You need to devise a strategy so that optimal steps could be performed to fill the bags under the permitted limits or reduce the number of bags.
 
@@ -159,7 +179,7 @@ e.g.
 
 
 
-# Missing information: 
+#### Missing information: 
 
 It missing some information which could be helpful to design the solution better e.g. 
 
@@ -176,7 +196,7 @@ It missing some information which could be helpful to design the solution better
 and many others 
 
 
-# Steps to compile and run this solution
+#### Steps to compile and run this solution
 Development Environment Used  : 
 OS-X Yosemite 10.10.1 ,IntelliJ Idea 14.1.1 community addition, JDK 1.8.0_45
 
