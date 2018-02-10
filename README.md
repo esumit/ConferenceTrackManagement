@@ -1,4 +1,5 @@
-## ConferenceTrackManagement
+## Conference Track Management : A Java Program that receive multiple talk session requests as input, and that to be organised by applying eight rules to produce organised output.
+
 You have recieved multiple talks request and that to be organised in a conference. Here are eight rules to oragnise talks in this conference :
 
 
